@@ -10,8 +10,9 @@ body {
 }
 
 .App-header {
-  background-color: #222;
+  background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/284895main_witchhead_nebula_full.jpg);
   padding: 20px;
+  background-position: center center;
   color: white;
 }
 
@@ -54,3 +55,14 @@ body {
 .Countdown-col-element strong{
   font-size: 50px;
 }
+.designer{
+  font-size: 0.6em;
+  text-align: left;
+  margin-left: 80%;
+  width: 20em;
+}
+.smallPin{
+  width: 30%;
+
+}
+
