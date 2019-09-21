@@ -17,10 +17,10 @@ render(){
 
 			<p>These are more general items that will come in handy</p>
 			<ul>
-				<li>Bug Bounties, particularly NASA related</li>
+				<li>Bug Bounties, particularly NASA related. This helps scope out to see what I'll be walking into</li>
 				<li>Replicate Marinus and scrape every single public-facing endpoint</li>
-				<li>Scout out the web's "cantinas"</li>
-				<li>Reconnaissance</li>
+				<li>Scout out the web's "cantinas". It's so prevalent that it's an easy target.</li>
+				<li>Basic Reconnaissance</li>
 				<li>Container Security</li>
 				<li></li>
 

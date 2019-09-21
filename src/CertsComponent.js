@@ -16,10 +16,10 @@ render(){
 			<h3>Certs</h3>
 
 			<ul>
-				<li>CEH</li>
-				<li>GIAC</li>
-				<li>ISC^2</li>
-				<li>CISSP</li>
+				<li>CEH - Udemy, Pluralsight? Course materials floating around</li>
+				<li>GIAC - Recommended</li>
+				<li>ISC^2 - Plurasight, and am on track via green belt</li>
+				<li>CISSP - Buzzword</li>
 				<li>SANS?</li>
 
 
