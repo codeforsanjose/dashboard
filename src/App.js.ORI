@@ -6,11 +6,7 @@ import github from './github.png';
 class App extends Component {
   render() {
     const currentDate = new Date();
-    const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear()+1;
-	
-
-
-
+    const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
     return (
       <div className="App">
         <div className="App-header">
@@ -23,8 +19,8 @@ class App extends Component {
           </a>
         </div>
 
-        <h3 className="title">Normandy Departs in the year 2020</h3>
-        <Countdown date={`2020-09-18T00:00:00`} />
+        <h3 className="title">Christmas Eve is coming soon (Midnight of 23rd to 24th Dec, UTC time):</h3>
+        <Countdown date={`${year}-12-24T00:00:00`} />
       </div>
     );
   }
