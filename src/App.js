@@ -3,6 +3,12 @@ import Countdown from './Countdown.js';
 import logo from './logo.svg';
 import github from './github.png';
 import axios from 'axios';
+import CardComponent from './CardComponent.js';
+
+import MainComponent from "./MainStoryline.js";
+import SideQuestsComponent from "./SideQuests.js";
+import CertsComponent from "./CertsComponent.js";
+const dotenv = require('dotenv')
 
 
 class App extends Component {
@@ -27,7 +33,7 @@ getInitialState(){
 
   getContents(){
 
-    const API_KEY = "7SKeiMfL3iPksCFzCdFs0edpYafQZl6hkl1tOoi6"
+    const API_KEY = `${process.env.REACT_APP_NASA_API_TOKEN}`
     const END_POINT = "https://api.nasa.gov/planetary/apod?api_key="
 
 axios.get(END_POINT + API_KEY).
@@ -37,7 +43,8 @@ axios.get(END_POINT + API_KEY).
             contents: res.data
             //htmlcontents: atob(res.data.content)
             })
-          console.log(this.state.contents.url)
+          dotenv.config()
+          console.log(` Yor key is ${process.env.REACT_APP_NASA_API_TOKEN}`)
  
        
         
@@ -80,6 +87,22 @@ axios.get(END_POINT + API_KEY).
           <div className="AtomicClock">
             <h3 className="title">September 2020, don't be late at the docking port</h3>
             <Countdown date={`2020-09-18T00:00:00`} />
+
+            <MainComponent/>
+
+            <CardComponent 
+              title="Certs" 
+
+
+
+            />
+            <CardComponent 
+              title="Side Quests"
+
+
+              />
+
+
 
          </div>
 
