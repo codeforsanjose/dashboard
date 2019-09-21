@@ -33,7 +33,7 @@ getInitialState(){
 
   getContents(){
 
-    const API_KEY = `${process.env.REACT_APP_NASA_API_TOKEN}`
+    const API_KEY = process.env.REACT_APP_NASA_API_TOKEN
     const END_POINT = "https://api.nasa.gov/planetary/apod?api_key="
 
 axios.get(END_POINT + API_KEY).
@@ -44,7 +44,6 @@ axios.get(END_POINT + API_KEY).
             //htmlcontents: atob(res.data.content)
             })
           dotenv.config()
-          console.log(` Yor key is ${process.env.REACT_APP_NASA_API_TOKEN}`)
  
        
         
