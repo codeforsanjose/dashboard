@@ -15,7 +15,16 @@ render(){
 			<title>Certs</title>
 			<h3>Certs</h3>
 
-			<p>Certs</p>
+			<ul>
+				<li>CEH</li>
+				<li>GIAC</li>
+				<li>ISC^2</li>
+				<li>CISSP</li>
+				<li>SANS?</li>
+
+
+
+			</ul>
 			</div>
 
 
