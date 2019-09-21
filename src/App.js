@@ -8,8 +8,12 @@ import CardComponent from './CardComponent.js';
 import MainComponent from "./MainStoryline.js";
 import SideQuestsComponent from "./SideQuests.js";
 import CertsComponent from "./CertsComponent.js";
-const dotenv = require('dotenv')
 
+
+
+import dotenv from 'dotenv';
+
+require('dotenv').config();
 
 class App extends Component {
     constructor(props){
