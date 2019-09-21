@@ -13,9 +13,9 @@ render(){
 
 		<div className="individualCard">
 			<title>Main Quests</title>
-			<h3>Main Quests</h3>
+			<h3>Side Quests</h3>
 
-			<p>{this.props.materials}</p>
+			<p>These are more general items that will come in handy</p>
 			<ul>
 				<li>Bug Bounties, particularly NASA related</li>
 				<li>Replicate Marinus and scrape every single public-facing endpoint</li>

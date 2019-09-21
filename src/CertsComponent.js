@@ -24,7 +24,8 @@ render(){
 
 
 
-			</ul>
+			</ul>			<p>"At _____, we are _____ and _____ certified"</p>
+
 			</div>
 
 
