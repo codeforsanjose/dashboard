@@ -85,20 +85,18 @@ axios.get(END_POINT + API_KEY).
 
 
           <div className="AtomicClock">
-            <h3 className="title">September 2020, don't be late at the docking port</h3>
+            <h3 className="title">September 2020</h3>
             <Countdown date={`2020-09-18T00:00:00`} />
 
-          <p><h3>Payload:</h3> To bring the latest and greatest tech and security that the Bay Area has to offer to NASA</p>
+          <p className="Payload"><h3>Payload:</h3> To bring the latest and greatest tech and security that the Bay Area has to offer to NASA</p>
           <p>Stay long enough to build up these skillsets. By the time the countdown reaches 0, come back again.</p>
-
+            <p>I suppose I should be more formal about it but at this point I just want something to tell myself that I have an endgoal in mind.</p>
+        
+       
             <MainComponent/>
             <SideQuestsComponent/>
 
             <CertsComponent/>
-
-
-
-
 
          </div>
 
