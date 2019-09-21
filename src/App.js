@@ -88,8 +88,8 @@ axios.get(END_POINT + API_KEY).
             <h3 className="title">September 2020, don't be late at the docking port</h3>
             <Countdown date={`2020-09-18T00:00:00`} />
 
-          <p><h4>Payload:</h4> To bring the latest and greatest tech and security that the Bay Area has to offer to NASA</p>
-
+          <p><h3>Payload:</h3> To bring the latest and greatest tech and security that the Bay Area has to offer to NASA</p>
+          <p>Stay long enough to build up these skillsets. By the time the countdown reaches 0, come back again.</p>
 
             <MainComponent/>
             <SideQuestsComponent/>
