@@ -43,7 +43,6 @@ axios.get(END_POINT + API_KEY).
             contents: res.data
             //htmlcontents: atob(res.data.content)
             })
-          dotenv.config()
  
        
         
