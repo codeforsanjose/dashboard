@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: npm run start
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    ports:
+      - "49160:3000"
+    environment:
+      REACT_APP_NASA_API_TOKEN: "7SKeiMfL3iPksCFzCdFs0edpYafQZl6hkl1tOoi6"
